@@ -1,0 +1,23 @@
+.red{
+    background-color: red;
+    color: white;
+    border: 2px solid red;
+}
+.buttonSize{
+    height: 23px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    height: 29px;
+
+}
+.borderRadius{
+    border-radius: 3px;
+}
+.textBold{
+    font-weight: bolder;
+}
+.faq{
+    color: white;
+}
