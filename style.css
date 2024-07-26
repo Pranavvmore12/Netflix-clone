@@ -1,20 +1,45 @@
+.red {
+  background-color: red;
+  color: white;
+  border: 2px solid red;
+}
+
+.buttonSize {
+  padding: 3px 10px;
+  height: 29px;
+}
+
+.borderRadius {
+  border-radius: 3px;
+}
+
+.textBold {
+  font-weight: bolder;
+}
+
+.faq {
+  color: white;
+}
+
 * {
   margin: 0;
   padding: 0;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-  Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
+
 .main {
- background-image:url('bg.jpg');
+  background-image: url('bg.jpg');
   background-position: center center;
-  background-size: max(1200px, 100vw);
+  background-size: cover;
   background-repeat: no-repeat;
   height: 95vh;
   position: relative;
 }
+
 body {
   background-color: black;
 }
+
 .main .box {
   height: 95vh;
   background-color: black;
@@ -23,6 +48,7 @@ body {
   position: absolute;
   top: 0;
 }
+
 nav {
   max-width: 80vw;
   justify-content: space-between;
@@ -31,6 +57,7 @@ nav {
   align-items: center;
   height: 62px;
 }
+
 nav img {
   color: red;
   width: 142px;
@@ -38,14 +65,15 @@ nav img {
   z-index: 1;
   padding-top: 30px;
 }
+
 nav button {
   position: relative;
   z-index: 1;
 }
+
 .hero {
-  padding: 0;
+  padding: 0 20px;
   text-align: center;
-  padding: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -55,36 +83,40 @@ nav button {
   z-index: 1;
   height: 85%;
   gap: 23px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
+
 .hero > :first-child {
   text-align: center;
   font-weight: 800;
   font-size: 48px;
 }
+
 .hero > :nth-child(2) {
   text-align: center;
   font-weight: 400;
   font-size: 20px;
 }
+
 .hero > :nth-child(3) {
   text-align: center;
   font-weight: 400;
   font-size: 20px;
 }
+
 .textholder {
   background-color: black;
   height: 52px;
   width: 332px;
   opacity: 0.44;
-  border: 3px SOLID grey;
+  border: 3px solid grey;
   border-radius: 3px;
   padding-left: 12px;
   color: white;
   position: relative;
   z-index: 1;
 }
+
 .button1 {
   margin: 30px;
   font-weight: 900;
@@ -92,10 +124,12 @@ nav button {
   background-color: transparent;
   color: white;
 }
+
 .button1 .img {
   height: 4px;
   font-weight: 900;
 }
+
 .button3 {
   padding: 12px;
   font-weight: 600;
@@ -103,14 +137,17 @@ nav button {
   position: relative;
   top: 4px;
 }
+
 .separator {
   width: 100%;
   height: 5px;
   background-color: #343333;
 }
+
 .enjoy {
   color: white;
 }
+
 .watch {
   color: white;
 }
@@ -119,6 +156,7 @@ nav button {
   height: 100px;
   display: flex;
 }
+
 .first {
   display: flex;
   justify-content: center;
@@ -128,18 +166,19 @@ nav button {
   justify-content: center;
   align-items: center;
 }
+
 .secImg {
   position: relative;
 }
+
 .secImg img {
   width: 32vw;
   position: relative;
   z-index: 10;
   left: 2px;
-
 }
-.secImg video {
 
+.secImg video {
   height: auto;
   padding: 0;
   margin: 0;
@@ -147,98 +186,233 @@ nav button {
   top: 75px;
   right: 0;
 }
+
 .first > div :first-child {
   font-size: 48px;
   font-weight: bolder;
 }
+
 .first > div :nth-child(2) {
   font-size: 24px;
   font-weight: bolder;
 }
-.first> div {
-    display: flex;
-    flex-direction: column;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    gap: 10px;
+
+.first > div {
+  display: flex;
+  flex-direction: column;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  gap: 10px;
 }
-.faq{
+
+.faq {
   color: white;
   background-color: black;
   padding: 34px;
- 
-
 }
-.faqbox{
+
+.faqbox {
   display: flex;
   justify-content: space-between;
   background-color: #2d2d2d;
   padding: 32px;
   max-width: 70vw;
   margin: 8px auto;
-  
 }
-.faq h2{
+
+.faq h2 {
   text-align: center;
   font-size: 48px;
   font-weight: 900;
- 
-
 }
-.faqbox span{
+
+.faqbox span {
   font-size: 25px;
 }
-.faqbox:hover{
+
+.faqbox:hover {
   background-color: #414141;
 }
-.mailSection{
+
+.mailSection {
   display: flex;
   flex-direction: column;
   color: white;
   justify-content: center;
   align-items: center;
-
 }
-.mailSection> div{
+
+.mailSection > div {
   font-size: 26px;
 }
-.mailSection>:nth-child(2){
+
+.mailSection > :nth-child(2) {
   padding-bottom: 70px;
   padding-top: 10px;
 }
-footer{
+
+footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   color: white;
   max-width: 60vw;
-  margin-left:212px ;
+  margin-left: 212px;
 }
-.footer-items{
+
+.footer-items {
   display: flex;
   flex-direction: column;
   gap: 17px;
 }
-#question{
+
+#question {
   color: white;
   margin-left: 212px;
   margin-top: 70px;
   margin-bottom: 25px;
 }
-.footer-items a{
- color: rgb(195, 189, 189);
+
+.footer-items a {
+  color: rgb(195, 189, 189);
 }
-.buttonSize1{
+
+.buttonSize1 {
   padding: 10px;
-  padding-left: 50px ; 
+  padding-left: 50px;
   padding-right: 50px;
 }
-.englishButton{
+
+.englishButton {
   position: relative;
   right: 31px;
 }
-.netflixLast{
+
+.netflixLast {
   margin-top: 50px;
-  margin-left:  30px;
+  margin-left: 30px;
   margin-bottom: 100px;
   color: #747272;
+}
+
+/* Media Queries for Responsiveness */
+
+@media (max-width: 1200px) {
+  .main {
+    background-size: cover;
+  }
+
+  nav {
+    max-width: 90vw;
+  }
+
+  .first {
+    max-width: 90vw;
+  }
+
+  .faqbox {
+    max-width: 90vw;
+  }
+
+  footer {
+    max-width: 80vw;
+    margin-left: auto;
+  }
+
+  #question {
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .hero > :first-child {
+    font-size: 36px;
+  }
+
+  .hero > :nth-child(2),
+  .hero > :nth-child(3) {
+    font-size: 18px;
+  }
+
+  .textholder {
+    width: 80%;
+  }
+
+  .first {
+    flex-direction: column;
+  }
+
+  .secImg img {
+    width: 100%;
+  }
+
+  .secImg video {
+    position: static;
+  }
+
+  footer {
+    grid-template-columns: 1fr 1fr;
+    max-width: 90vw;
+    margin: auto;
+  }
+
+  #question {
+    margin: 20px auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero > :first-child {
+    font-size: 28px;
+  }
+
+  .hero > :nth-child(2),
+  .hero > :nth-child(3) {
+    font-size: 16px;
+  }
+
+  .textholder {
+    width: 90%;
+  }
+
+  .button3 {
+    font-size: 18px;
+  }
+
+  .first {
+    padding: 10px;
+  }
+
+  .secImg img {
+    width: 100%;
+  }
+
+  .secImg video {
+    position: static;
+    width: 100%;
+  }
+
+  footer {
+    grid-template-columns: 1fr;
+    max-width: 100vw;
+    margin: auto;
+  }
+
+  #question {
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .englishButton {
+    right: 0;
+    margin: 10px 0;
+  }
 }
